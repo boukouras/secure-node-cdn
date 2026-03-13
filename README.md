@@ -132,5 +132,5 @@ Response:
 For the private file you should use to Headers Bearer the JWT that server generate, and the full filepath with the extention.
 For example you want some image from the public, the path of this image is about/a14b14c2-fc80-4977-9e95-31e549f68e9b.jpg
 ```
-GET http://localhost:{PORT}/media?access=public&type=images&filepath=about/a14b14c2-fc80-4977-9e95-31e549f68e9b.jpg
+GET http://localhost:3000/media?access=public&type=images&filepath=about/a14b14c2-fc80-4977-9e95-31e549f68e9b.jpg
 ```
